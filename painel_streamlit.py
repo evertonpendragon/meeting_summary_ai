@@ -66,7 +66,6 @@ if uploaded_file:
             print('Pessoa {pessoa} - {frase}'.format(pessoa=sentenca.speaker,frase=sentenca.text))
             texto_transcrito += 'Pessoa {pessoa} - {frase}\r\n'.format(pessoa=sentenca.speaker,frase=sentenca.text) 
         st.text_area("Transcrição",texto_transcrito)
-    st.success("Feito!")
 
     
     with st.spinner('Gerando ata de reunião'):
