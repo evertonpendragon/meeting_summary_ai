@@ -25,3 +25,25 @@ https://drive.google.com/file/d/1SkcCavEHSo-tYABMgB9su3KqfoW7S_EX/view?usp=shari
 #site
 ##############################################################
 https://www.assemblyai.com/app/
+
+
+
+
+##############################################################
+# github
+##############################################################
+
+#mostra os arquivos modificados que não estão comitados
+git status
+
+
+git add painel_strreamlit.python
+git add .gitignore
+
+git status
+
+git commit -m "Vai!"
+
+git push origin main
+
+
