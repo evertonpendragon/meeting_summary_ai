@@ -1,4 +1,6 @@
 
+python -m venv .venv
+
 
 # no powershell 
 
@@ -12,3 +14,10 @@ Get-ExecutionPolicy
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+
+
+#donwload da entrevista
+
+https://drive.google.com/file/d/1SkcCavEHSo-tYABMgB9su3KqfoW7S_EX/view?usp=sharing
