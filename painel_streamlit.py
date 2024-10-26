@@ -70,7 +70,7 @@ if uploaded_file:
     
     with st.spinner('Gerando ata de reunião'):
         promt_system="Você é um especialista em gerar atas de reunião. "
-        prompt_text = "Em uma redação de nível especializado, remusa as notas de reunião em um único parágrafo. Em seguida, escreva uma lista de cada um de seus pontos-chaves tratados na reunião. Por fim, liste as próximas etapas ou itens de ação sugeridos pelos palestrantes, se houver."
+        prompt_text = "Em uma redação de nível especializado, resuma as notas de reunião em um único parágrafo. Em seguida, escreva uma lista de cada um de seus pontos-chaves tratados na reunião. Por fim, liste as próximas etapas ou itens de ação sugeridos pelos palestrantes, se houver."
         
         prompt_text+="\r\n---\r\n"
         prompt_text=texto_transcrito
