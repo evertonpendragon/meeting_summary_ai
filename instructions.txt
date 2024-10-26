@@ -1,0 +1,14 @@
+
+
+# no powershell 
+
+ cd C:\Users\evert\VSCode Projects\meeting_sumary_git\meeting_summary_ai
+
+
+
+
+Get-ExecutionPolicy
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
